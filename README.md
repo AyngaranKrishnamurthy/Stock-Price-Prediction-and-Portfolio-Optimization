@@ -4,12 +4,12 @@
 The project involves predicting stock prices using historical data and optimizing an investment portfolio based on the predictions. The goal is to assist investors in making informed decisions by providing predictions for individual stocks and optimizing their portfolio for risk and return.
 
 ## _Introduction_
-Stock price prediction and portfolio management are crucial aspects of investment strategy. By accurately predicting future stock prices, investors can make informed decisions to maximize returns and minimize risks. The use of deep learning techniques, particularly LSTM networks, offers a promising approach to forecast stock prices based on historical data. This project aims to develop a robust prediction model using LSTM networks and utilize it for portfolio optimization.
+Stock price prediction and portfolio management are crucial aspects of investment strategy. By accurately predicting future stock prices, investors can make informed decisions to maximize returns and minimize risks. The use of deep learning techniques, particularly LSTM networks, offers a promising approach to forecasting stock prices based on historical data. This project aims to develop a robust prediction model using LSTM networks and utilize it for portfolio optimization.
 
 ## _Data Analysis_
-Live Data: Use of live data helps in achieving more accurate predictions and helps manage risk of out dated data.
+Live Data: Use of live data helps in achieving more accurate predictions and helps manage the risk of outdated data.
 
-_Data Processing/ CleanUp_: While capturing live data we need to retrieve just the right fields needed for training, in our case we just retrieve Closing Price of the stocks and their corresponding dates.
+_Data Processing/ CleanUp_: While capturing live data, we need to retrieve just the right fields needed for training. In our case, we just retrieve the Closing Price of the stocks and their corresponding dates.
 
 ## _Evaluation Results_
 For evaluating our model's results, we utilize visual graphs. These graphs compare predicted stock prices against actual prices, analyze errors, depict confidence intervals, and showcase trend patterns. Visualizations aid in assessing model performance and optimizing investment
